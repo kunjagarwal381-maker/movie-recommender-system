@@ -14,7 +14,8 @@ A content-based movie recommendation system built with Python and Streamlit.
 - TMDB API
 
 ## Screenshot
-(paste your app screenshot here)
+<img width="1359" height="639" alt="MRS" src="https://github.com/user-attachments/assets/63e7f4f0-b2ac-47ce-a07c-a5727f3a72c6" />
+
 
 ## How to Run
 pip install streamlit requests pickle5
