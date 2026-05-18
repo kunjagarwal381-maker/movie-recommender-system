@@ -111,7 +111,7 @@ movies = movie_list["title"].values
 # ── Fetch poster ─────────────────────────────────────────
 def fetch_poster(movie_id, retries=3):
     url = f"https://api.themoviedb.org/3/movie/{movie_id}"
-    params = {"api_key": "a6a8769d3b738557ffd00e4fc71ccd42", "language": "en-US"}
+    params = {"api_key": "<YOUR_API_KEY>", "language": "en-US"}
     headers = {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
     for attempt in range(retries):
         try:
